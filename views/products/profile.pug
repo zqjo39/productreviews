@@ -6,7 +6,7 @@ block content
         div.product-header
             h1.product-name= product.product_name
             div.product-actions
-                a.button.primary(href=`/product/edit/${product.id}`) Edit
+                a.button.primary(href=`/products/edit/${product.id}`) Edit
                 a.button.danger(href=`/products/delete/${product.id}`) Delete
         div Rating: #{product.rating}
         p.products-description= product.description
