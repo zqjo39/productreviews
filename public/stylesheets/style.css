@@ -76,6 +76,10 @@ a {
   border-collapse: collapse;
 }
 
+thead {
+  width: 100%;
+}
+
 th, td {
   padding: 8px 16px;
   text-align: left;
@@ -86,6 +90,7 @@ th {
   border: none;
   color: #6B7280;
   text-transform: uppercase;
+  width: 300px;
 }
 
 td {
